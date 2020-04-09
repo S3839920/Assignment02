@@ -1,1 +1,146 @@
 
+
+/* Makes the html / webpage as tall or taller as the browser window */
+html {
+    min-height:100vh;
+  }
+  
+  /* Makes the body as tall or taller as the browser window, less html element's padding */
+  body {
+    min-height:calc(100vh - 2 * 20px);
+  }
+  
+  
+  /* Give all semantic body elements uniform layout style */
+  header,
+  nav,
+  main,
+  footer,
+  aside,
+  section,
+  article,
+  details,
+  div
+  {
+    font-family: "Helvetica", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 5px;  
+    padding: 5px;
+    box-sizing: border-box;
+    border: 5px #000;
+  }
+  
+  /* Give each semantic body element a different color */
+  header
+  {
+      background-color: #001;
+  }
+  nav
+  { 
+      background-color: hsl(180,10%,97%);
+      border: 5px solid rgb(101, 0, 151);
+  }
+  main
+  {
+      color: #000;
+      background-color: #fff;
+      font-size: large;
+      text-align: center;
+      width: 80%;
+      border: thick #000;
+  }
+  
+  footer
+  {
+      background-color: #001;
+      border: 5px solid rgb(101, 0, 151);
+  }
+  
+  article
+  { 
+      background-color: rgb(0, 0, 0);
+      border: 5px solid rgb(101, 0, 151);
+  }
+  aside
+  {
+    background-color: #001;
+    border: 5px solid rgb(101, 0, 151);
+  }
+  section
+  {
+      background-color: hsl(180,10%,97%);
+      border: 5px solid rgb(101, 0, 151);
+  }
+  details
+  {
+      background-color: #000a0a;
+  }
+  
+  div
+  {
+    border: 2px dashed rgb(101, 0, 151);  
+  }
+  
+  /* HTML 4 Deprecated Tags and Attributes*/
+  center,
+  font,
+  menu,
+  marquee,
+  *[align],
+  *[border],
+  *[color],
+  *[bgcolor]
+  {
+    padding:10px;
+    background: #aaaaa0 40px !important;
+    border:20px solid black;
+  }
+  frame,
+  table,
+  *[color]::after
+  {
+    padding:10px;
+    background:  #010 40px;
+    color: #fff
+    
+  }
+  
+  
+  
+  /* Some basic styling for the starting page */
+  
+  header {
+    font-size: 300%;
+    font-weight: bold;
+  }
+  
+  header * {
+    vertical-align: middle;
+  }
+  
+  header img {
+    filter: drop-shadow(-1px -1px 3px white);
+    -webkit-filter: drop-shadow(-1px -1px 3px white);
+    margin-right: 40px;
+  }
+  
+  nav,
+  footer {
+    font-size:300%
+    padding: 10px;
+    margin: 0.4em;
+  
+  }
+  
+  nav ul {
+    padding:0;
+    margin:0.2em;
+    display: inline-block;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;  
+    padding:0.2em;
+  }
+  
+  
