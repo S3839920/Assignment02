@@ -4,17 +4,19 @@ body {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,169,122,1) 80%, rgba(187,57,50,1) 97%); 
     padding: 50px;
 }
-
+/*For the header*/
 h1 {
   color: black;
   margin-left: 20px;
 }
 
+/*for the navigation bar*/
 .nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+/*for the body oh the html, the picture is non repeating and streches which will look more like a gradient with more words added*/
 body {
     background-image: url("cool-background(1).png");
     background-repeat: no-repeat;
@@ -22,13 +24,14 @@ body {
     background-size: cover;
     background-attachment: scroll;
 }
-
+/*for giving the profile section a nice backgound */
 .profilestyle {
  
     border-left: 6px solid red;
     padding: 40px;
     background-color: white;
 }
+
 .industryData {
  
     border-left: 6px solid red;
@@ -86,6 +89,7 @@ header {
     display: flex;
     align-items: center;
 }
+
 .logo {
      align-items: center;
      position:absolute;
@@ -105,6 +109,7 @@ header li a {
     color: black;
     text-decoration: none;
 }
+
 footer {
   position: static;
   left: 0;
@@ -113,9 +118,11 @@ footer {
   background-color: white;
   text-align: center;
 }
+
 a {
     color:black
 }
+
 a:hover {
     color:indianred
 }
