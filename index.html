@@ -7,33 +7,29 @@
         <link rel="stylesheet"  type="text/css" href="mystyle.css">
       
           <script src='wireframe.js'></script>
-          <!--<style>
-            body {background-color: whitesmoke;}
-            h1   {font-size: 50px;}
-            p    {font-size: 20px;}-->
         </head>
       
         <body>
       
           <header>
             <h1>High 5 - Assignment 2<br></h1>
-          </header>
       
           <nav>
-            Navigation links:
-            <ul>
+            <ul class="nav">
               <li><a href="#aboutus">Team Profile</a></li>
-              <li><a href="#myjob">Dream Job</a></li>
-              <li><a href="#itwork">IT Work - Interview IT professionals</a></li>
+              <li><a href="#industrydata">Dream Job</a></li>
+              <li><a href="#itwork">IT Work </a></li>
               <li><a href="#projectplan">Project Proposal</a></li>
+              <li><a href="#feedback">Group Feedback</a></li>
             </ul> 
           </nav>
-      
+        </header>
+            
           <main>
             <article id='assignment1'>
                   <h2>About us</h2>
                   <section id="aboutus">
-                    <div>  
+                    <div class="about"> <!-- all divs in sections will be for styling purposes -->  
                       <ul>
                         <li>Adem Doger</li>
                         <li>Adem Coskun</li> 
@@ -53,6 +49,7 @@
                     </div>
                     </section>
                     <section id="profiles">
+                        <div class="profilestyle">
                         <h2>Team members <a href="" target="_blank"></a></h2>
                             <h3>Adem Doger</h3> 
                                 <p>My name is Adem Doger, I’m 18 years old and was born in Australia with a Turkish background. I’m currently enrolled 
@@ -132,7 +129,7 @@
                                 Job would be a Product Manager.
                               </p>
 
-
+                        </div>
                             <br>
                         <div>
                           <!-- random div? -->
@@ -142,6 +139,7 @@
 
                     <!-- made a section for IT work here, for styling -->
                     <section id="itwork">
+                        <div class="interviews">
                       <h2>IT Work</h2>
                        <h3>Donovan Humphries: CTO at DomaCom</h3>
                         <br>
@@ -233,13 +231,14 @@
                           <br>Not pursuing a career in banking/ finance
                           <br>21.   Do you have any advice for us entering the industry?
                           <br>Build technical and people skills before leaving uni 
-                          
-                         
                     
-                    
+                            </div>
                         </section>
-                    <section id="industrydata">
-                      <h2>Industry Data</h2>
+                
+                
+                <section id="industrydata">
+                    <div class="industryData">
+                        <h2>Industry Data</h2>
                         <h3></h3>
                         <p>
 
@@ -247,8 +246,16 @@
                         <br><br>
 
                         <br><br>
-                    </section>
+                    
+                        
+                        
+                        </div>
+                        </section>
+                
+                
+                
                     <section id = "projectplan">
+                        <div class=" RMITApp">
                         <h2>Project: Biometric ATMs</h2>
                             <p>The project plan is to create biometric thumbprint scanners for ATMs, to give customers cardless access to their bank accounts. 
                             This would supplement the current method of customers using cards and PIN codes to access their accounts, so as to give customers the option between 
@@ -284,16 +291,17 @@
                             People don't like to take too long just to withdraw cash at an ATM and they like waiting in line to use one even 
                             less.
                             </p>
-                  </section>
+                        </div>
+                </section>
   
-                  <section id = "individualfeedback">
+                  <section id = "feedback">
                     
-                    <div>
+                    <div class="individualfeedback">
                         <h2>Individual Feedback</h2> <!-- I made them seperate divs because I felt it was needed for clean code but they're all in the same section-->
                    
                     </div>
                 
-                    <div>
+                    <div class="groupfeedback">
                         <h2>Group Reflection</h2>
                     
                     </div>
