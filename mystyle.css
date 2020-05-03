@@ -39,6 +39,12 @@ body {
     background-color: white;
 }
 
+.ITJobs  {
+    border-left: 6px solid red;
+    padding: 40px;
+    background-color: white;
+}
+
 .interviews {
  
     border-left: 6px solid red;
