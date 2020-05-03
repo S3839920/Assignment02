@@ -92,14 +92,14 @@ header {
 .logo {
      align-items: center;
      position:absolute;
-            right:0;">
+            right:0;
     padding-right:10px;
 }
 
 header * {
     display: inline;
 }
-.technologies{
+.technologies {
     border-left: 6px solid red;
     padding: 40px;
     background-color: white;   
