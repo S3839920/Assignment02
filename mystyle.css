@@ -26,13 +26,13 @@ body {
     background-attachment: scroll;
 }
 
-
 .profilestyle {
  
     border-left: 6px solid red;
     padding: 40px;
     background-color: white;
 }
+
 .industryData {
  
     border-left: 6px solid red;
@@ -60,6 +60,7 @@ body {
     padding: 40px;
     background-color: white;   
 }
+
 .groupfeedback {
     
     border-left: 6px solid red;
@@ -90,6 +91,7 @@ header {
     display: flex;
     align-items: center;
 }
+
 .logo {
      align-items: center;
      position:absolute;
@@ -97,15 +99,16 @@ header {
     padding-right:10px;
 }
 
-header * {
-    display: inline;
-}
 .technologies {
     border-left: 6px solid red;
     padding: 40px;
-    background-color: white;   
-    
+    background-color: white;      
 }
+
+header * {
+    display: inline;
+}
+
 header li {
     margin: 20px;
 }
@@ -113,12 +116,6 @@ header li {
 header li a {
     color: black;
     text-decoration: none;
-}
-.meetings {
-    border-left: 6px solid red;
-    padding: 40px;
-    background-color: white;   
-    
 }
 
 footer {
@@ -132,6 +129,7 @@ footer {
 a {
     color:black
 }
+
 a:hover {
     color:indianred
 }
