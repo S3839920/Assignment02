@@ -25,59 +25,15 @@ body {
     background-attachment: scroll;
 }
 /*for giving the profile section a nice backgound */
-.profilestyle {
+div {
  
     border-left: 6px solid red;
     padding: 40px;
     background-color: white;
 }
 
-.industryData {
- 
-    border-left: 6px solid red;
-    padding: 40px;
-    background-color: white;
-}
 
-.ittechnologies {
-    border-left: 6px solid red;
-    padding: 40px;
-    background-color: white;
-}
 
-.interviews {
- 
-    border-left: 6px solid red;
-    padding: 40px;
-    background-color: white;
-}
-
-.about {
-    
-    border-left: 6px solid red;
-    padding: 40px;
-    background-color: white;
-}
-
-.RMITApp {
-    
-    border-left: 6px solid red;
-    padding: 40px;
-    background-color: white;   
-}
-.groupfeedback {
-    
-    border-left: 6px solid red;
-    padding: 40px;
-    background-color: white;   
-}
-
-.individualfeedback {
-    
-    border-left: 6px solid red;
-    padding: 40px;
-    background-color: white;   
-}
 
 .h2 {
     font-size: 30px;
