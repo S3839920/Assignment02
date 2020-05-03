@@ -80,7 +80,7 @@ body {
 }
 
 .h2 {
-    font-size: 30px.
+    font-size: 30px;
     color: #fff;
     letter-spacing: 2px;
 }
@@ -99,7 +99,7 @@ header {
 .logo {
      align-items: center;
      position:absolute;
-            right:0;">
+            right:0;
     padding-right:10px;
 }
 
