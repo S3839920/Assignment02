@@ -25,14 +25,11 @@ body {
     background-attachment: scroll;
 }
 /*for giving the profile section a nice backgound */
-div {
- 
+.style {
     border-left: 6px solid red;
     padding: 40px;
     background-color: white;
 }
-
-
 
 
 .h2 {
